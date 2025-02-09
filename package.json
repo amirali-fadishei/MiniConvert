@@ -1,0 +1,25 @@
+{
+  "name": "mini-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./styles/style.css -o ./styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.5"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.5",
+    "animate.css": "^4.1.1",
+    "crypto-js": "^4.2.0",
+    "jalali-moment": "^3.3.11",
+    "qrcode": "^1.5.4"
+  }
+}

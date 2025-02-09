@@ -1,0 +1,19 @@
+# فولدرهای وابستگی‌ها
+node_modules/
+package-lock.json
+yarn.lock
+
+# خروجی‌های کامپایل شده
+styles/output.css
+
+# فایل‌های کش و موقتی
+*.log
+.cache/
+dist/
+.DS_Store
+Thumbs.db
+
+# تنظیمات محیطی و سیستمی
+.env
+.vscode/
+.idea/
